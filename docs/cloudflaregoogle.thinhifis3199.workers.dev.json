@@ -1,0 +1,12 @@
+{
+	"web": {
+		"client_id": "857226598019-j4m10mgk8i5c3lvg2cb6r06ncrn165ou.apps.googleusercontent.com",
+		"project_id": "rngoo-334922",
+		"auth_uri": "https://accounts.google.com/o/oauth2/auth",
+		"token_uri": "https://oauth2.googleapis.com/token",
+		"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+		"client_secret": "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",
+		"redirect_uris": ["https://cloudflaregoogle.thinhifis3199.workers.dev/auth"],
+		"javascript_origins": ["https://cloudflaregoogle.thinhifis3199.workers.dev"]
+	}
+}
