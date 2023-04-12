@@ -1,4 +1,4 @@
-name = "cloudflare_google"
+name = "cloudflaregoogle"
 compatibility_date = "2023-04-12"
 main = "dist/worker.js"
 workers_dev = true

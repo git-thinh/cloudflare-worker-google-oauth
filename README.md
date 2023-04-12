@@ -1,5 +1,15 @@
 # ( ◕◡◕)っ Cloudflare Workers Google OAuth
 
+
+# https://developers.cloudflare.com/workers/get-started/guide/
+
+- npm install -g wrangler
+- yarn global add wrangler
+
+wrangler dev --local
+wrangler dev --experimental-local
+
+
 This is a companion repository for the blog post at [Apiumhub :: Tech blog](https://apiumhub.com/tech-blog-barcelona/implementing-google-oauth-google-api-cloudflare-workers/).
 
 In the blog post, we go though the code that OAuth-s a user and uses a Google API for that user.
