@@ -8,7 +8,7 @@
 
 wrangler dev --local
 wrangler dev --experimental-local
-
+wrangler publish
 
 This is a companion repository for the blog post at [Apiumhub :: Tech blog](https://apiumhub.com/tech-blog-barcelona/implementing-google-oauth-google-api-cloudflare-workers/).
 
