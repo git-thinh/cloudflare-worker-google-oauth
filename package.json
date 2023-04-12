@@ -1,5 +1,5 @@
 {
-  "name": "{{ project-name }}",
+  "name": "cloudflare_google",
   "version": "1.0.0",
   "description": "Cloudflare worker TypeScript template",
   "main": "dist/worker.js",
@@ -12,9 +12,9 @@
     "publish": "npm-run-all format lint build publish:wrangler",
     "dev:wrangler": "wrangler dev",
     "dev:build": "env-cmd webpack --watch",
-    "dev": "npm-run-all --parallel dev:*"
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && npm-run-all --parallel dev:*"
   },
-  "authors": "{{ authors }}",
+  "authors": "thinh",
   "license": "Unlicense",
   "eslintConfig": {
     "root": true,

@@ -1,7 +1,11 @@
-name = "{{ project-name }}"
-type = "javascript"
+name = "cloudflare_google"
+compatibility_date = "2023-04-12"
+main = "dist/worker.js"
+workers_dev = true
+node_compat = true
 
-account_id = ""
-kv_namespaces = [ 
-         { binding = "authTokens", id = "" }
-]
+account_id = "a2293ca00df7530415bb1638e7190aac"
+kv_namespaces = [{ binding = "KVCACHE", id = "32de29c815a1413ca35fe21d2f5e0a6a", preview_id = "28a216d67146461e9c7fd12fc6cc0834" }]
+
+#account_id = ""
+#kv_namespaces = [{ binding = "authTokens", id = "" }]
