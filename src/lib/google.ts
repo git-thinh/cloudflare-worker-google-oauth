@@ -1,4 +1,4 @@
-import { EnvSystem } from './env'
+import { EnvSystem } from '../_env'
 
 export interface GoogleSystem {
 	oauthURL : (params : AuthParams) => string

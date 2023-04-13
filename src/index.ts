@@ -1,6 +1,6 @@
 import kv from './lib/kv'
 import google from './lib/google'
-import env from './lib/env'
+import env from './_env'
 import crypo from './lib/crypto'
 import main from './handler'
 

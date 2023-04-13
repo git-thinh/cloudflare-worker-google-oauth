@@ -1,7 +1,6 @@
 {
   "name": "cloudflaregoogle",
   "version": "1.0.0",
-  "description": "Cloudflare worker TypeScript template",
   "main": "dist/worker.js",
   "scripts": {
     "build": "webpack",
@@ -14,8 +13,6 @@
     "dev:build": "env-cmd webpack --watch",
     "dev": "set NODE_OPTIONS=--openssl-legacy-provider && npm-run-all --parallel dev:*"
   },
-  "authors": "thinh",
-  "license": "Unlicense",
   "eslintConfig": {
     "root": true,
     "extends": [
